@@ -42,6 +42,26 @@ public class FizzBuzzTest {
 	}
 	
 	
+	@Test 
+	void multipleDeTrois() {
+		assertEquals(FizzBuzz.fizzbuzz(66), "fizz");
+		assertEquals(FizzBuzz.fizzbuzz(9), "fizz");
+		assertEquals(FizzBuzz.fizzbuzz(21), "fizz");
+		
+	}
+	
+	
+	@Test
+	void multipleDeCinq() {
+		assertEquals(FizzBuzz.fizzbuzz(25), "buzz");
+		assertEquals(FizzBuzz.fizzbuzz(550), "buzz");
+		assertEquals(FizzBuzz.fizzbuzz(85), "buzz");
+		
+	}
+	
+	
+	
+	
 	
 	
 	
