@@ -19,6 +19,11 @@ public class FizzBuzzTest {
 		assertEquals(FizzBuzz.fizzbuzz(2), "2");
 	}
 	
+	@Test
+	void testAvecTrois() {
+		assertEquals(FizzBuzz.fizzbuzz(3), "fizz");
+	}
+	
 	
 	
 
