@@ -23,6 +23,17 @@ public class FizzBuzzTest {
 	void testAvecTrois() {
 		assertEquals(FizzBuzz.fizzbuzz(3), "fizz");
 	}
+	@Test
+	void testAvecQuatre() {
+		assertEquals(FizzBuzz.fizzbuzz(4), "4");
+	}
+	
+	@Test
+	void testAvecCinq() {
+		assertEquals(FizzBuzz.fizzbuzz(5), "buzz");
+	}
+	
+	
 	
 	
 	
