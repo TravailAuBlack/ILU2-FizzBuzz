@@ -56,6 +56,11 @@ public class FizzBuzzTest {
 		assertEquals(FizzBuzz.fizzbuzz(25), "buzz");
 		assertEquals(FizzBuzz.fizzbuzz(550), "buzz");
 		assertEquals(FizzBuzz.fizzbuzz(85), "buzz");
+	}
+	
+	@Test
+	void MultipleDeTroisEtCinq() {
+		assertEquals(FizzBuzz.fizzbuzz(15), "fizzbuzz");
 		
 	}
 	
