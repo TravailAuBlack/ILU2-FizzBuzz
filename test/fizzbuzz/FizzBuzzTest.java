@@ -33,6 +33,17 @@ public class FizzBuzzTest {
 		assertEquals(FizzBuzz.fizzbuzz(5), "buzz");
 	}
 	
+	@Test
+	void quelquesValeur() {
+		assertEquals(FizzBuzz.fizzbuzz(850), "buzz");
+		assertEquals(FizzBuzz.fizzbuzz(7), "7");
+		assertEquals(FizzBuzz.fizzbuzz(96), "fizz");
+		
+	}
+	
+	
+	
+	
 	
 	
 	
