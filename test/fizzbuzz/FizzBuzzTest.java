@@ -13,5 +13,13 @@ public class FizzBuzzTest {
 	void testAvecUn() {
 		assertEquals(FizzBuzz.fizzbuzz(1), "1");
 	}
+	
+	@Test
+	void testAvecDeux() {
+		assertEquals(FizzBuzz.fizzbuzz(2), "2");
+	}
+	
+	
+	
 
 }
